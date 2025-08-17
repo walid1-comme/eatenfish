@@ -686,17 +686,17 @@
 
             // Check GTD wallets first
             if (gtdWallets.includes(inputWallet)) {
-                resultText.textContent = 'EatenFisher Eligible GTD';
+                resultText.textContent = 'Not Updated Yet';
                 resultText.className = 'pixel-text text-green-400';
             } 
             // Then check FCFS wallets
             else if (fcfsWallets.includes(inputWallet)) {
-                resultText.textContent = 'EatenFisher FCFS';
+                resultText.textContent = 'Not Updated Yet';
                 resultText.className = 'pixel-text text-yellow-400';
             } 
             // Not in either list
             else {
-                resultText.textContent = "You're Not an EatenFisher";
+                resultText.textContent = "Not Updated Yet";
                 resultText.className = 'pixel-text text-red-400';
             }
 
